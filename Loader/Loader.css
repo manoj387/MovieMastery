@@ -1,0 +1,15 @@
+.loader {
+    width: 70px;
+    aspect-ratio: 1;
+    border: 5px solid;
+    border-color: #000 #0000;
+    border-radius: 50%;
+    margin: 10% auto;
+    animation: loader 1s linear infinite;
+}
+
+@keyframes loader {
+    to {
+        transform: rotate(1turn)
+    }
+}
